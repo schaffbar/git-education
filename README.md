@@ -1,7 +1,7 @@
 # Lesson: Straight forward path for issues:
 
 1. Clone the repository
-  - `git clone git@github.ibm.com:zNextCompliance/compliance-git-education.git`
+  - `git clone git@github.com:schaffbar/git-education.git
 
 2. Get all changes from the remote repository 
   - `git pull`
@@ -32,7 +32,7 @@
 9. Look for changes and see the difference (green vs red files)
   - `git status`
 
-10. Commit the changes and follow: https://pages.github.ibm.com/zNextCompliance/Playbook.github.ibm.com//development-process/00-overview
+10. Commit the changes and follow: 
   - `git commit -m “<meaningfull commit message>”`
   - git commit hook is enabled in all production compliance repositories.
 
@@ -41,7 +41,7 @@
   - for a new feature branch,  `git push --set-upstream origin <your branch>`
 
 12. Create a Pull Request in the Web frontend with a proper description
-   - https://github.ibm.com/zNextCompliance/git-education
+   - https://github.com/schaffbar/git-education#
 
 13. Request a review from a team mate
 
@@ -252,15 +252,3 @@ I prefere meld over opendiff, vimdiff,  bc, emerge, kdiff3 …..
 - https://pages.github.ibm.com/zNextCompliance/Playbook.github.ibm.com//development-process/code-review-process
 - https://www.dennisrobinson.name/blog/reorder-commits-with-git/
 
-# Ideas:
-
-- ohmyzsh extension: https://ohmyz.sh/ -> Thomas life Demo
-- Clipboard history CopyClip install it from Apple appstore
-- WebUI: Show all Pull Requests 
-- Use Draft Pull Requests for Pull Requests you don’t want a review by now.
-- Good practise: Close unused git artefacts like PR and branches. 
-- Rebase and Merge is disabled → you have to rebase again
-
-# Summary and Outlook:
-
-Are there any other git related questions we should cover in a separate session ?
